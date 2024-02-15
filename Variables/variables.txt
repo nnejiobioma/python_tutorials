@@ -1,0 +1,44 @@
+WHAT IS VARIABLE IN PYTHON:
+
+    Variables in Python are named containers that store data values during program execution.
+    They allow you to assign meaningful names to data, making your code more readable, maintainable,
+    and efficient.
+
+HOW ARE VARIABLES CREATED
+
+WHAT ARE VALUABLE RULES:
+
+    1. Must start with a letter or underscore (_).
+    2. Can contain letters, numbers, and underscores, but the first character cannot be a number.
+    3. Case-sensitive (e.g., name is different from Name).
+    4. Choose descriptive names to reflect the data they hold.
+
+ASSINMENT:
+    Use the = operator to assign a value to a variable.
+    Example: age = 30 creates a variable age and stores the value 30 in it.
+
+DATA TYPES:
+    Variables can hold different types of data:
+    - Numbers (integers, floats)
+    - Strings (text)
+    - Booleans (True or False)
+    - Lists (ordered collections of items)
+    - Tuples (immutable ordered collections)
+    - Dictionaries (collections of key-value pairs)
+    - Others (custom classes, objects)
+
+SCOPE:
+    - Variables have a scope, which determines where they are accessible.
+    - Local variables (created within functions) are accessible only within that function.
+    - Global variables (created outside functions) are accessible from anywhere in the program.
+    - Use local variables whenever possible to prevent unintended side effects from modifying global variables.
+
+Best practices:
+
+    - Use meaningful variable names.
+    - Declare variables before using them (helps with readability and potential typos).
+    - Choose appropriate data types to avoid casting (converting) values unnecessarily.
+    - Use local variables where possible.
+    - Follow consistent naming conventions (e.g., using lowercase with underscores for variable names).
+
+ASSESMENT:
