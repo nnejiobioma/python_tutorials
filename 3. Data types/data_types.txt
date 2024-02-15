@@ -1,0 +1,57 @@
+What are python data types?
+
+What are built-in data type?
+ In python, there are built in data types which are:
+    1. Numeric:
+            Represents numbers in Python.
+
+            Includes:
+
+            Integers: Whole numbers (e.g., 10, -5).
+            Floats: Numbers with decimal points (e.g., 3.14, 2.718).
+            Complex numbers: Numbers with real and imaginary parts (e.g., 3+2j).
+            Operations: Addition, subtraction, multiplication, division, etc.
+
+            Used for calculations, representing quantities, measurements, etc.
+
+    2. Sequence Type:
+            Ordered collection of items accessed by index.
+
+            Examples:
+
+            List: Mutable, can change contents (e.g., [1, "hello", 3.5]).
+            Tuple: Immutable, cannot change contents (e.g., (10, "world", True)).
+            String: Immutable sequence of characters (e.g., "Python is fun!").
+            Operations: Indexing, slicing, concatenation, membership checking, iteration.
+
+            Used for storing collections of data in a specific order.
+
+    3. Boolean:
+
+            1. Represents logical truth values.
+            2. Values: True or False.
+            3. Used for making decisions in control flow statements like if and while.
+
+    4. set:
+
+            1. Unordered collection of unique elements.
+            2. Elements cannot be duplicates.
+            3. Mutable, can add or remove elements.
+            4. Operations: Membership checking, union, intersection, difference.
+            5. Used for representing unique items, checking if an element exists, combining or comparing sets.
+
+    5. Dictionary:
+
+            1. Unordered collection of key-value pairs.
+            2. Keys are unique and immutable (e.g., strings, integers).
+            3. Values can be any data type.
+            4. Mutable, can change key-value pairs.
+            5. Operations: Accessing elements by key, adding or modifying key-value pairs, checking keys or values.
+            6. Used for storing data associated with unique keys, organizing information in key-value pairs.
+
+To check which data type is been used, use print(type())
+    Example:
+        f = {1,2,3,4}
+            print (type(f))
+
+            output <class 'set'>
