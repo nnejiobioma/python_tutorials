@@ -99,3 +99,7 @@ OPERATORS PRECEDENCE:
 
     Understanding operator precedence is crucial for writing expressions that produce the expected results and avoiding errors in your code.
     If in doubt, you can always use parentheses to explicitly specify the order of evaluation.
+
+    
+    ASSIGNMENT
+    1. Write a program that 
