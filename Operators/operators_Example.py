@@ -212,3 +212,29 @@ b = 5.0
 
 print(a is not b)  # Output: True, because a and b refer to different objects
 
+#---------------------------------------------------------
+#Bitwise Operators:
+# Bitwise AND
+result_and = 5 & 3  # 101 & 011 = 001
+print(result_and)  # Output: 1
+
+# Bitwise OR
+result_or = 5 | 3  # 101 | 011 = 111
+print(result_or)  # Output: 7
+
+# Bitwise XOR
+result_xor = 5 ^ 3  # 101 ^ 011 = 110
+print(result_xor)  # Output: 6
+
+# Bitwise NOT
+result_not = ~5  # ~0101 = 1010 (in two's complement representation)
+print(result_not)  # Output: -6
+
+# Left Shift
+result_left_shift = 5 << 1  # 101 << 1 = 1010
+print(result_left_shift)  # Output: 10
+
+# Right Shift
+result_right_shift = 5 >> 1  # 101 >> 1 = 10
+print(result_right_shift)  # Output: 2
+

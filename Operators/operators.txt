@@ -1,5 +1,101 @@
 What is operators
 
-What are types of operators
+In Python, operators are symbols that perform specific operations on operands (values or variables).
+They play a crucial role in manipulating data, controlling program flow, and performing calculations.
 
-operators precedence
+DIFFERENT TYPES OF OPERATORS.
+
+    1. Arithmetic Operators:
+        Used for performing mathematical calculations on numbers.
+        Include:
+        + (addition)
+        - (subtraction)
+        * (multiplication)
+        / (division)
+        // (floor division - quotient without remainder)
+        % (modulo - remainder after division)
+        ** (exponentiation)
+
+    2. Comparison Operators:
+        Used for comparing values and returning Boolean results (True or False).
+        Include:
+        == (equal to)
+        != (not equal to)
+        < (less than)
+        > (greater than)
+        <= (less than or equal to)
+        >= (greater than or equal to)
+
+    3. Assignment Operators:
+        Used to assign values to variables.
+        Include:
+        = (simple assignment)
+        +=, -=, *=, /=, %= (combined assignment operators - perform operation and assign result)
+
+    4. Logical Operators:
+        Used for combining Boolean expressions and making conditional decisions.
+        Include:
+        and (returns True if both operands are True)
+        or (returns True if at least one operand is True)
+        not (inverts the truth value of the operand)
+
+    5. Membership Operators:
+        Used to check if a value is present in a sequence (like lists or strings).
+        Include:
+        in (returns True if the value is present, False otherwise)
+        not in (returns True if the value is not present, False otherwise)
+
+    6. Identity Operators:
+        Used to check if two variables refer to the same object in memory.
+        Include:
+        is (returns True if both operands refer to the same object)
+        is not (returns True if both operands do not refer to the same object)
+
+    7. Bitwise Operators:
+        In Python, bitwise operators are used to perform operations on individual bits of integer numbers. These operators treat operands as sequences of binary digits (bits) and perform bitwise operations between corresponding bits. Python supports the following bitwise operators:
+
+        Bitwise AND (&): This operator performs a bitwise AND operation between corresponding bits of two operands. The result is 1 if both bits are 1; otherwise, it is 0.
+
+        Bitwise OR (|): This operator performs a bitwise OR operation between corresponding bits of two operands. The result is 1 if at least one of the bits is 1; otherwise, it is 0.
+
+        Bitwise XOR (^): This operator performs a bitwise XOR (exclusive OR) operation between corresponding bits of two operands. The result is 1 if the bits are different; otherwise, it is 0.
+
+        Bitwise NOT (~): This operator performs a bitwise NOT (complement) operation on its single operand, resulting in the inversion of all bits. It flips all the bits from 0 to 1 and from 1 to 0.
+
+        Left Shift (<<): This operator shifts the bits of the first operand to the left by a specified number of positions given by the second operand. It effectively multiplies the first operand by 2 raised to the power of the second operand.
+
+        Right Shift (>>): This operator shifts the bits of the first operand to the right by a specified number of positions given by the second operand. It effectively divides the first operand by 2 raised to the power of the second operand, discarding any fractional remainders.
+
+        Note:
+            Bitwise operators are often used in low-level programming, such as embedded systems, device drivers, and cryptography,
+            where manipulation of individual bits is necessary.
+
+   
+OPERATORS PRECEDENCE:
+    In Python, operator precedence determines the order in which operators are evaluated when multiple operators are present in an expression. Operators with higher precedence are evaluated first, followed by operators with lower precedence. If operators have the same precedence, their evaluation order is determined by their associativity, which can be either left-to-right or right-to-left.
+
+    Here's a summary of operator precedence in Python from highest to lowest:
+
+    Parentheses () - Highest precedence; used to group expressions and override the default precedence.
+    Exponentiation ** - Second highest precedence; raises the left operand to the power of the right operand.
+    Unary plus + and unary minus - - Third highest precedence; used to denote positive and negative numbers.
+    Multiplication *, Division /, Floor division //, Modulus % - Fourth highest precedence; evaluated from left to right.
+    Addition + and Subtraction - - Fifth highest precedence; evaluated from left to right.
+    Bitwise Shifts << and >> - Sixth highest precedence; evaluated from left to right.
+    Bitwise AND & - Seventh highest precedence; evaluated from left to right.
+    Bitwise XOR ^ - Eighth highest precedence; evaluated from left to right.
+    Bitwise OR | - Ninth highest precedence; evaluated from left to right.
+    Comparison operators (<, <=, >, >=, ==, !=, is, is not, in, not in) - Tenth highest precedence; evaluated from left to right.
+    Logical NOT not - Eleventh highest precedence; evaluated right to left.
+    Logical AND and - Twelfth highest precedence; evaluated from left to right.
+    Logical OR or - Thirteenth highest precedence; evaluated from left to right.
+
+    Here's an example demonstrating how precedence affects the evaluation of expressions:
+            result = 2 + 3 * 4 ** 2
+            # Exponentiation (4 ** 2) is evaluated first (16)
+            # Multiplication (3 * 16) is evaluated next (48)
+            # Addition (2 + 48) is evaluated last (50)
+            print(result)  # Output: 50
+
+    Understanding operator precedence is crucial for writing expressions that produce the expected results and avoiding errors in your code.
+    If in doubt, you can always use parentheses to explicitly specify the order of evaluation.
