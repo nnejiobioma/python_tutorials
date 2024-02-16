@@ -11,11 +11,18 @@ WHAT ARE VALUABLE RULES:
     1. Must start with a letter or underscore (_).
     2. Can contain letters, numbers, and underscores, but the first character cannot be a number.
     3. Case-sensitive (e.g., name is different from Name).
-    4. Choose descriptive names to reflect the data they hold.
+    4. Python variable names should be descriptive and indicative of the data they hold to make the code more readable.
 
 ASSINMENT:
-    Use the = operator to assign a value to a variable.
-    Example: age = 30 creates a variable age and stores the value 30 in it.
+    - Use the = operator to assign a value to a variable.
+      Example: age = 30 creates a variable age and stores the value 30 in it.
+    - Unlike some other programming languages, you don't need to specify the data type of a variable explicitly. Python determines the type dynamically based on the assigned value.
+    - Variables can be assigned different types of values at different times during the execution of the program.
+
+     Example:
+        x = 5       # Assigns the integer value 5 to variable x
+        y = "hello" # Assigns the string "hello" to variable y
+        z = [1, 2, 3] # Assigns a list [1, 2, 3] to variable z
 
 DATA TYPES:
     Variables can hold different types of data:
