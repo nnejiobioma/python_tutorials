@@ -1,0 +1,37 @@
+What is conditional statement:
+
+Types of condtional statement:
+
+Importatnt of condtional statement
+
+Assignment:
+1. Word Guessing Game:
+
+The computer thinks of a random word from a predefined list.
+The player has a certain number of attempts to guess the word.
+After each guess, the program provides feedback like "correct," "incorrect," "letter is in the word but not in the right position," or "letter is not in the word."
+The player wins if they guess the word correctly within the allowed attempts.
+2. Rock-Paper-Scissors:
+
+The computer randomly chooses between rock, paper, and scissors.
+The player chooses their hand sign (rock, paper, or scissors).
+The program compares the choices and declares the winner based on the classic rules (rock beats scissors, scissors beat paper, paper beats rock).
+3. Hangman:
+
+The computer chooses a random word from a predefined list.
+The player guesses letters one by one.
+If the letter is in the word, it gets revealed in the correct positions.
+If the letter is not in the word, a part of the hangman gets drawn (e.g., head, body, limbs).
+The player loses if the hangman is complete before they guess the entire word.
+The player wins if they guess all the letters correctly before the hangman is complete.
+4. Number Mystery:
+
+The computer generates a random number within a defined range (e.g., 1 to 100).
+The player has to guess the number by providing higher or lower guesses.
+After each guess, the program tells the player if their guess is too high, too low, or correct.
+The player wins if they guess the number correctly within a certain number of attempts.
+5. Mad Libs:
+
+The program prompts the player for different words (nouns, verbs, adjectives, etc.).
+It then inserts these words into a pre-written story template, creating a silly or humorous outcome.
+These are just a few examples, and you can come up with many other variations based on different themes and mechanics. Remember to keep the rules simple and the gameplay engaging for a fun and interactive experience.
